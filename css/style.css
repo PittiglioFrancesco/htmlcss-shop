@@ -8,14 +8,29 @@
     margin: 50px 10%;
 }
 
-.box{
-    background-color: black;
+.prodotto{
     width: 30%;
+    height: auto;
+}
+
+.box{
     position: relative;
 }
 
-.picture{
+.box img{
     width: 100%;
+}
+
+.picture-b{
+    display: none;
+}
+
+.picture:hover{
+    display: none;
+}
+
+.immagini:hover .picture-b{
+    display: block;
 }
 
 .cuore{
@@ -33,7 +48,7 @@
     color: white;
     font-size: 20px;
     padding: 0 5px;
-    bottom: 5px;
+    bottom: 30px;
     left: 0;
 }
 
@@ -43,6 +58,14 @@
     color: white;
     font-size: 20px;
     padding: 0 5px;
-    bottom: 5px;
+    bottom: 30px;
     left: 58px;
+}
+
+.descrizione{
+    display: block;
+}
+
+.red{
+    color: red;
 }
