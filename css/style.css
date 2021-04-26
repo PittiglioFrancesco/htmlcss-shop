@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px 10%;
+}
+
+.box{
+    background-color: black;
+    width: 30%;
+    position: relative;
+}
+
+.picture{
+    width: 100%;
+}
+
+.cuore{
+    position: absolute;
+    background-color: white;
+    padding: 5px 5px 5px 10px;
+    font-size: 20px;
+    top: 5px;
+    right: 0;
+}
+
+.sconto{
+    position: absolute;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+    bottom: 5px;
+    left: 0;
+}
+
+.type{
+    position: absolute;
+    background-color: limegreen;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+    bottom: 5px;
+    left: 58px;
+}
