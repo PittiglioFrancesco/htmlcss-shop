@@ -1,24 +1,27 @@
+/* General */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* riga */
+
 .container{
     margin: 50px 10%;
+    font-family: 'Roboto', sans-serif;
 }
 
-.container::after{
-    content: "";
-    display: table;
-    clear: both;
-}
+/* Prodotti */
 
 .prodotto{
     width: 30%;
     height: auto;
     float: left;
 }
+
+/* align vari */
 
 .center{
     margin: 0 5%;
@@ -31,6 +34,8 @@
 .box img{
     width: 100%;
 }
+
+/* hover */
 
 .picture-b{
     display: none;
@@ -73,18 +78,6 @@
     left: 58px;
 }
 
-.descrizione{
-    display: block;
-}
-
-.red{
-    color: red;
-}
-
-.bgc-green{
-    background-color: limegreen;
-}
-
 .type2{
     position: absolute;
     background-color: limegreen;
@@ -94,3 +87,25 @@
     bottom: 30px;
     left: 0px;
 }
+
+.descrizione{
+    display: block;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* colori */
+
+.red{
+    color: red;
+}
+
+.bgc-green{
+    background-color: limegreen;
+}
+
+
