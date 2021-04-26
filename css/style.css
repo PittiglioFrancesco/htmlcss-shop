@@ -80,3 +80,17 @@
 .red{
     color: red;
 }
+
+.bgc-green{
+    background-color: limegreen;
+}
+
+.type2{
+    position: absolute;
+    background-color: limegreen;
+    color: white;
+    font-size: 20px;
+    padding: 0 5px;
+    bottom: 30px;
+    left: 0px;
+}
