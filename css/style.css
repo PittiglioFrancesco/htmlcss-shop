@@ -8,9 +8,20 @@
     margin: 50px 10%;
 }
 
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .prodotto{
     width: 30%;
     height: auto;
+    float: left;
+}
+
+.center{
+    margin: 0 5%;
 }
 
 .box{
@@ -25,11 +36,11 @@
     display: none;
 }
 
-.picture:hover{
+.box:hover .picture{
     display: none;
 }
 
-.immagini:hover .picture-b{
+.box:hover .picture-b{
     display: block;
 }
 
